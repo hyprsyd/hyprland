@@ -1,0 +1,98 @@
+live_config_reload = true
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 0
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#969896"
+blue = "#b4b7b4"
+cyan = "#a3685a"
+green = "#a9b665"
+magenta = "#e0e0e0"
+red = "#de935f"
+white = "#ffffff"
+yellow = "#373b41"
+
+[colors.cursor]
+cursor = "#d4be98"
+text = "#1d1f21"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#81a2be"
+cyan = "#8abeb7"
+green = "#b5bd68"
+magenta = "#b294bb"
+red = "#cc6666"
+white = "#d4be98"
+yellow = "#f0c674"
+
+[colors.primary]
+background = "#000000"
+foreground = "#d4be98"
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[debug]
+log_level = "OFF"
+persistent_logging = false
+print_events = false
+render_timer = false
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 17
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Medium"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+family = "IosevkaTerm Nerd Font"
+style = "Medium"
+
+[font.offset]
+x = 0
+y = 0
+
+[mouse]
+hide_when_typing = false
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window]
+decorations = "none"
+dynamic_padding = false
+opacity = 1.0
+
+[window.dimensions]
+columns = 100
+lines = 85
+
+[window.padding]
+x = 5
+y = 5

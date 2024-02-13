@@ -1,13 +1,28 @@
 * {
-    font-family: SpaceMono Nerd Font, feather, monospace;
+    font-family: Iosevka Nerd Font, feather, monospace;
     font-weight: 900;
-    font-size: 12px;
-    color: #C0CAF5;
+    font-size: 15px;
+    color: #ebdbb2;
+}
+
+.custom-cider {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: #cc241d;
+    border-radius: 8px;
+    color: black;
+}
+.custom-spotify {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: #689d6a;
+    border-radius: 8px;
+    color: black;
 }
 
 /* Set background colour of main waybar window */
 window#waybar{
-    background: rgba(25, 23, 36, 0.6);
+    background: rgba(00, 00, 00, 0.6);
     border-radius: 50px;
     padding-left: 5px;
     padding-right: 5px;
@@ -15,18 +30,18 @@ window#waybar{
 
 /* Set background colour of tooltips */
 tooltip {
-  background: #1f1d2e;
+  background: #282828;
 }
 
 /* Set workspace text colour and padding */
 #workspaces button {
   padding: 0px;
-  color: #c0caf5;
+  color: #ebdbb2;
 }
 
 /* Sets active workspace to have a solid line on the bottom */
 #workspaces button.active {
-  border-bottom: 2px solid #ebbcba;
+  border-bottom: 2px solid #1d2021;
   border-radius: 5px;
   margin-bottom: 2px;
 }
@@ -42,7 +57,7 @@ tooltip {
 
 
 #workspaces button:hover {
-  background: #11111b;
+  background: #282828;
   color: #cdd6f4;
 }
 
@@ -63,7 +78,7 @@ tooltip {
 #custom-wl-gammarelay-temperature,
 
 #custom-wl-gammarelay-temperature {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 5px;
@@ -72,7 +87,7 @@ tooltip {
 }
 
 #clock {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 5px;
@@ -81,7 +96,7 @@ tooltip {
 }
 
 #workspaces {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 15px;
@@ -90,7 +105,7 @@ tooltip {
 }
 
 #memory {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 5px;
@@ -99,7 +114,7 @@ tooltip {
 }
 
 #cpu {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 5px;
@@ -108,7 +123,7 @@ tooltip {
 }
 
 #pulseaudio {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 5px;
@@ -116,7 +131,7 @@ tooltip {
   border-radius: 8px 8px 8px 8px;
 }
 #mpd {
-  background: rgb(25, 23, 36);
+  background: rgb(00,00,00);
   padding: 0px 5px;
   margin: 3px 0px;
   border: 0px;
@@ -151,7 +166,7 @@ tooltip {
 #battery {
   border-radius: 8px 8px 8px 8px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 10px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -175,4 +190,3 @@ tooltip {
 #custom-pacman, #custom-kernel {
   border-radius: 8px 8px 8px 8px;
 }
-
